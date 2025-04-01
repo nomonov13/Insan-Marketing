@@ -1,5 +1,5 @@
-import headerLogo from '../assets/img/header-logo.svg';
 import headerBg from '../assets/img/header-bg.jpg';
+import headerLogo from '../assets/img/header-logo.svg';
 
 const Header = () => {
 
@@ -32,9 +32,11 @@ const Header = () => {
     ]
 
     return (
-        <header className=''>
-            <div className="conatiner flex items-center space-x-5">
-                <img src={headerLogo} alt="insan logo" />
+        <header style={{ backgroundImage: `url(${headerBg})` }} className="bg-cover bg-center  pb-[59px]">
+            <div className="container py-5 flex items-center justify-between">
+                <div className='mr-[80px]'>
+                    <img src={headerLogo} alt="insan logo" />
+                </div>
 
 
                 <ul className='flex space-x-4'>
@@ -47,11 +49,12 @@ const Header = () => {
                     })}
                 </ul>
 
-                <div>
-                    <h3>Ru</h3>
+                <div className='flex items-center space-x-4'>
+                    <h3 className='font-medium text-2xl text-light-gray'>Ru</h3>
                     <span className='w-[2px] h-[42.5px] bg-[#D9D9D9]'></span>
-                    <h3>UZ</h3>
+                    <h3 className='font-medium text-2xl text-blue'>UZ</h3>
                 </div>
+                <button className='btn-dark'>Bog'lanish</button>
 
             </div>
         </header>
