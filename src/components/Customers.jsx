@@ -11,7 +11,6 @@ const Customers = () => {
       </h1>
 
       <div className="flex flex-wrap justify-center gap-[30px] mt-[80px]">
-        {/* 1-sharh */}
         <div className="w-[414px] p-[40px] rounded-2xl shadow-md bg-white">
           <p className="text-[14px] leading-[166%] text-gray-700">
             Sizlarning jamoangiz bilan juda ham yaxshi ishlayapman. Ishingizga
@@ -33,8 +32,6 @@ const Customers = () => {
             </div>
           </div>
         </div>
-
-        {/* 2-sharh */}
         <div className="div w-[414px] p-[40px] rounded-2xl shadow-md bg-white">
           <p className="text-[14px] leading-[166%] text-gray-700">
             Zo'r ish olib borishadi, shartnomaga to'liq amal qilinadi, barcha
@@ -57,7 +54,6 @@ const Customers = () => {
             </div>
           </div>
         </div>
-
         <div className="div w-[414px] p-[40px] rounded-2xl shadow-md bg-white">
           <p className="text-[14px] leading-[166%] text-gray-700">
             Barcha postlar o'z vaqtida chiqadi, kontent sifatli. Mas'uliyatli
