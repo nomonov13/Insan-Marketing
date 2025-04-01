@@ -57,3 +57,9 @@ html {
     border-radius: 15px;
 }
 
+
+.div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

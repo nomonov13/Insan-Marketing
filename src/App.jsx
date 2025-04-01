@@ -4,6 +4,7 @@ import React from 'react'
 import Agency from './Components/Agency'
 import Numbers from './Components/Numbers'
 
+import Customers from './components/Customers';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Hero />
         <Agency />
         <Numbers />
+        <Customers />
       </main>
 
     </>
