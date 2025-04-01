@@ -5,6 +5,10 @@ import Agency from './Components/Agency'
 import Numbers from './Components/Numbers'
 
 import Customers from './components/Customers';
+import Questions from './components/Questions'
+import Footer from './components/Footer'
+import Xizmatlar from './components/Xizmatlar'
+import Portfolio from './components/Portfolio'
 
 const App = () => {
   return (
@@ -14,9 +18,12 @@ const App = () => {
         <Hero />
         <Agency />
         <Numbers />
+        <Xizmatlar />
+        <Portfolio />
         <Customers />
+        <Questions />
       </main>
-
+      <Footer />
     </>
   )
 }
