@@ -10,6 +10,8 @@ import Footer from './components/Footer'
 import Xizmatlar from './components/Xizmatlar'
 import Portfolio from './components/Portfolio'
 
+import './i18n'
+
 const App = () => {
   return (
     <>
