@@ -8,7 +8,7 @@ const Numbers = () => {
   ];
 
   return (
-    <div className="text-center p-6 bg-[#F2F2F296]">
+    <div className="text-center p-6 bg-[#F2F2F296] container">
       <h2 className="text-6xl font-bold text-blue-900 mb-6">Мы в цифрах:</h2>
       <div className="flex justify-center gap-6">
         {NumberList.map((item, index) => (
