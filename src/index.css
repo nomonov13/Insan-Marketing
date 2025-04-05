@@ -46,13 +46,6 @@ html {
   background-color: var(--color-dark-blue);
   box-shadow: 0px 9px 16px 0px #0000000a;
   padding: 17px 11px;
-  font-family: Poppins;
-  font-weight: 700;
-  font-size: 18px;
-  color: white;
-  border: 15px;
-  background-color: blue;
-  box-shadow: 0px 9px 16px 0px #0000000a;
 }
 
 .btn-dark {
@@ -71,7 +64,7 @@ html {
   font-family: Poppins;
   font-weight: 700;
   font-size: 20px;
-  padding: 12px 102px 18px;
+  padding: 12px 102px 15px;
   box-shadow: 0px 9px 16px 0px #0000000a;
   background-color: white;
   border-radius: 15px;

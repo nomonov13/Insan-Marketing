@@ -12,10 +12,10 @@ const Questions = () => {
         </div>
         <div className='space-y-4' >
           <div >
-            <input className='w-64 h-10 border-light-gray border-2 rounded-2xl text-center text-white' type="text" placeholder='F.I.O' />
+            <input className='py-3.5 px-14.5 border-2 border-[#FFFFFF73] rounded-2xl text-center font-normal text-xl text-white placeholder:text-white' type="text" placeholder='F.I.O' />
           </div>
           <div>
-            <input className='w-64 h-10 border-light-gray border-2 rounded-2xl text-center text-white' type="number" placeholder='Telefon raqamingiz' />
+            <input className='py-3.5 px-14.5 border-2 border-[#FFFFFF73] rounded-2xl text-center font-normal text-xl text-white placeholder:text-white' type="number" placeholder='Telefon raqamingiz' />
           </div>
           <button className='btn-white'>Yuborish</button>
         </div>

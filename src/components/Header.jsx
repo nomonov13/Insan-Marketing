@@ -20,17 +20,17 @@ const Header = () => {
         {
             id: 3,
             link: '/Portfolio',
-            title: 'Portfolio',
+            title: t('portfolio'),
         },
         {
             id: 4,
             link: '/Customer opinion',
-            title: 'Mijozlar fikri',
+            title: t('customer-opinion'),
         },
         {
             id: 5,
             link: '/Communication',
-            title: 'Aloqa',
+            title: t('contact'),
         },
     ]
 
@@ -61,7 +61,7 @@ const Header = () => {
                     <span className='w-[2px] h-[42.5px] bg-[#D9D9D9]'></span>
                     <button onClick={() => changeLanguage('uz')} className='font-medium text-2xl'>UZ</button>
                 </div>
-                <button className='btn-dark'>Bog'lanish</button>
+                <button className='btn-dark'>{t('connection')}</button>
 
             </div>
         </header>
