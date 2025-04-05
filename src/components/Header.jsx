@@ -1,18 +1,21 @@
+import { useTranslation } from 'react-i18next';
 import headerBg from '../assets/img/header-bg.jpg';
 import headerLogo from '../assets/img/header-logo.svg';
 
 const Header = () => {
 
+    const { t, i18n } = useTranslation()
+
     const HeaderLinks = [
         {
             id: 1,
             link: '/',
-            title: 'Biz haqimizda',
+            title: t('about-us'),
         },
         {
             id: 2,
             link: '/Services are new',
-            title: 'Xizmatlar yangi',
+            title: t('services'),
         },
         {
             id: 3,
@@ -30,6 +33,10 @@ const Header = () => {
             title: 'Aloqa',
         },
     ]
+
+    const changeLanguage = (lang) => {
+        i18n.changeLanguage(lang)
+    }
 
     return (
         <header style={{ backgroundImage: `url(${headerBg})` }} className="bg-cover bg-center  pb-[59px]">
@@ -50,9 +57,9 @@ const Header = () => {
                 </ul>
 
                 <div className='flex items-center space-x-4'>
-                    <h3 className='font-medium text-2xl text-light-gray'>Ru</h3>
+                    <button onClick={() => changeLanguage('ru')} className='font-medium text-2xl text-light-gray'>Ru</button>
                     <span className='w-[2px] h-[42.5px] bg-[#D9D9D9]'></span>
-                    <h3 className='font-medium text-2xl text-blue'>UZ</h3>
+                    <button onClick={() => changeLanguage('uz')} className='font-medium text-2xl'>UZ</button>
                 </div>
                 <button className='btn-dark'>Bog'lanish</button>
 
